@@ -165,6 +165,7 @@ try {
       $stmt=$conn->prepare("INSERT INTO accounts VALUES ('$newid', '$email', '$firstname', '$lastname', 
         '$phonenumber', '$birthday', '$gender', '$password')");
       $stmt->execute();
+      echo "<div class='alert alert-success' id='alert'><font size='3'><strong>Successful registration.</strong></font></div>";
       #add password to form
     }
     elseif($email!=''){
