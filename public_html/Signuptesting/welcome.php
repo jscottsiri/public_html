@@ -43,7 +43,7 @@ div#alert{
 $bool=false;
 if ($_SERVER['REQUEST_METHOD']=='POST'){
 	if(empty($_POST["emaillog"])){
-    	$erremaillog="Error, Login Email";
+    	$erremaillog="Error, Enter Login Email";
 	}
 	else{
 		$emaillog= $_POST["emaillog"];
@@ -60,7 +60,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST'){
 }
 
 if (($erremaillog != "") or ($errpasswordlog != "")){
-	echo "$erremaillog"."$errpasswordlog";
+echo "<div id='badlog'><font size='7'><a href='https://web.njit.edu/~jss82/Signuptesting/bootstrapsignup.php'>$erremaillog $errpasswordlog</a><br></font></div>";
 }
 if ($bool){
 class TableRows extends RecursiveIteratorIterator { 
