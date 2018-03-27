@@ -1,0 +1,9 @@
+head, body {
+text-align: center;
+color: blue;
+}
+.test {
+	color: red;
+	text-align: left-side;
+	margin: 30px, 30px;
+}

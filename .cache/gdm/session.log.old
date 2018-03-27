@@ -1,0 +1,7 @@
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+/afs/cad/ucs/bin/functions/fileservers: line 28: /usr/local/bin/sed: No such file or directory
+/afs/cad/ucs/bin/functions/fileservers: line 28: /usr/local/bin/sed: No such file or directory
+/afs/cad/ucs/bin/functions/fileservers: line 28: /usr/local/bin/sed: No such file or directory
+/usr/ucs/bin/quota.status.bash: /usr/ucs/bin/fslq: /usr/local/bin/ksh: bad interpreter: No such file or directory
+Currently Loaded Modulefiles:
+  1) python3         2) java8/1.8.101   3) matlab/2016a

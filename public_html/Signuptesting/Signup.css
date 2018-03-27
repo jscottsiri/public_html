@@ -1,0 +1,32 @@
+*{
+}
+html{
+	background-color: lightblue;
+}
+form#signup{
+	background-color: #fcfcfc;
+	margin: 2% 70% 0% 10%;
+	padding: 3% 10% 3% 3%;
+	border-width: 2px;
+	border-color: #000000;
+	border-style: solid;
+	position: absolute;
+}
+form#login{
+	background-color: #fcfcfc;
+	margin: 2% 10% 0% 70%;
+	padding: 3% 10% 3% 3%;
+	border-width: 2px;
+	border-color: #000000;
+	border-style: solid;
+	position: absolute;
+}
+h1#su{
+	margin: 2% 0 0 8%;
+}
+h1#l{
+	margin: 2% 0 0 70%;
+}
+div{
+	margin-top: 5%;
+}

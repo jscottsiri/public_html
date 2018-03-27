@@ -1,0 +1,467 @@
+.main-banner-wrapper{
+	border-top:solid 4px #ccc;
+	border-bottom:solid 4px #ccc;
+	background-color:#efefef;
+	
+}
+
+.main-banner-wrapper .tile{
+	background-color:#900;	
+}
+
+.main-banner-wrapper .tile.tileBottom {
+	position:relative;
+}
+
+.main-banner-wrapper .tile.tileBottom .banner-content{
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+.main-banner-wrapper .tile.tileCenter{
+	position:relative;
+}
+.main-banner-wrapper .tile.tileCenter .banner-content{
+	position:absolute;
+	width:100%;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.selected-banner-title{
+	display:none;	
+}
+.logged-in .selected-banner-title{
+	position:absolute;
+	left:115px;
+	top:-20px;
+	display:block;
+}
+.main-banner-wrapper {
+  box-sizing: border-box;
+}
+.main-banner-wrapper *{
+	box-sizing: border-box;
+}
+.main-banner-wrapper, .main-banner-wrapper:before, .main-banner-wrapper:after {
+  box-sizing: inherit;
+}
+.banner-preview-wrapper{
+	position:relative;
+
+}
+.main-banner-wrapper.custom_banner iframe {
+	display:block;
+	height: 336px !important;
+}
+.main-banner-wrapper .banner-content{
+	padding:20px;
+
+	text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
+}
+.main-banner-wrapper .banner-content .banner-title{
+	font-size:30px;
+	line-height: normal;
+	margin-bottom:10px;
+}
+
+.main-banner-wrapper .banner-content .banner-title a{
+	color:#fff;
+	text-decoration:none;
+}
+.main-banner-wrapper .banner-content .banner-title a:hover{
+	text-decoration:underline;
+}
+
+.main-banner-wrapper .banner-content .banner-description{
+	font-size:22px;
+	line-height: normal;
+}
+
+.main-banner-wrapper .banner-content a.banner-readmore {
+	display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;
+    padding:5px 15px;
+    background-color:#900;
+    color:#fff;
+    font-size:14px;
+    margin-top:15px;
+	-webkit-border-radius: 12px; 
+	-moz-border-radius: 12px; 
+	border-radius: 12px; 
+}
+
+.main-banner-wrapper .banner-content a.banner-readmore:hover {
+	text-decoration: none;
+	background-color:#c00;
+}
+.banner-size {
+	width: 950px;
+	height:350px;
+	position:relative;
+	margin:auto;
+	-webkit-box-shadow: 0px 1px 15px 2px rgba(82, 82, 82, 0.3);
+    -moz-box-shadow: 0px 1px 15px 2px rgba(82, 82, 82, 0.3);
+    box-shadow: 0px 1px 15px 2px rgba(82, 82, 82, 0.3);
+	border: 8px solid #fff;
+	font-family: "museo-slab-1","museo-slab-2",sans-serif;
+}
+.main-banner-wrapper.banner1 {
+}
+.main-banner-wrapper.banner1 .tile{
+	height:100%;
+	width:100%;
+	position:absolute;
+	background-repeat: no-repeat;
+	background-position:center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color:#fff;
+	
+}
+
+
+.main-banner-wrapper.banner2 {
+}
+.main-banner-wrapper.banner2 .tile{
+	height:100%;
+	display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;
+	background-repeat: no-repeat;
+	background-position:center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color:#fff;
+	
+}
+
+
+.main-banner-wrapper.banner2 .tile0{
+	width:40%;
+}
+.main-banner-wrapper.banner2 .tile1{
+	width:60%;
+	border-left: 8px solid #fff;
+}
+
+.main-banner-wrapper.banner3 {
+}
+.main-banner-wrapper.banner3 .tile{
+	height:100%;
+	width:33.33333333%;
+	display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;
+	background-repeat: no-repeat;
+	background-position:center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color:#fff;
+	
+}
+.main-banner-wrapper.banner3 .tile0{
+	border-right: 4px solid #fff;
+}
+.main-banner-wrapper.banner3 .tile1{
+	border-right: 4px solid #fff;
+	border-left: 4px solid #fff;
+}
+.main-banner-wrapper.banner3 .tile2{
+	border-left: 4px solid #fff;
+}
+
+.main-banner-wrapper.banner4 .tile{
+	height:100%;
+	display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;
+	background-repeat: no-repeat;
+	background-position:center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color:#fff;	
+}
+
+
+
+
+.main-banner-wrapper.banner4 .tile0{
+	border-right: 4px solid #fff;
+	width:60%;
+}
+
+.main-banner-wrapper.banner4 .tile1, .main-banner-wrapper.banner4 .tile2, .main-banner-wrapper.banner4 .tile3 {
+	-webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+    background-position: top center;
+}
+
+.main-banner-wrapper.banner4 .tile1 .banner-title, .main-banner-wrapper.banner4 .tile2 .banner-title, .main-banner-wrapper.banner4 .tile3 .banner-title{
+	font-size:20px;
+}
+
+.main-banner-wrapper.banner4 .tile1 .banner-description, .main-banner-wrapper.banner4 .tile2 .banner-description, .main-banner-wrapper.banner4 .tile3 .banner-description{
+	font-size:14px;
+}
+ 
+.main-banner-wrapper.banner4 .tile1 a.banner-readmore,  .main-banner-wrapper.banner4 .tile2 a.banner-readmore, .main-banner-wrapper.banner4 .tile3 a.banner-readmore{
+	font-size:12px;
+	background-color:none;
+}
+     
+.main-banner-wrapper.banner4 .tile1 .banner-content, .main-banner-wrapper.banner4 .tile2 .banner-content, .main-banner-wrapper.banner3 .tile1 .banner-content  {
+	padding:10px;
+	
+}
+    
+.main-banner-wrapper.banner4 .tile1{
+	border-left: 4px solid #fff;
+	width:40%;
+	height:33.33333333%;
+	border-bottom: 4px solid #fff;
+}
+.main-banner-wrapper.banner4 .tile2{
+	width:40%;
+	height:33.33333333%;
+	position:absolute;
+	right:0;
+	top:33.33333333%;
+	border-top: 4px solid #fff;
+	border-bottom: 4px solid #fff;
+	border-left: 4px solid #fff;
+}
+.main-banner-wrapper.banner4 .tile3{
+	width:40%;
+	height:33.33333333%;
+	position:absolute;
+	right:0;
+	top:66.66666666%;
+	border-top: 4px solid #fff;
+	border-left: 4px solid #fff;
+}
+
+
+.main-banner-wrapper.banner5 .tile{
+	height:50%;
+	display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+    background-position: top center;
+	color:#fff;	
+}
+
+.main-banner-wrapper.banner5 .tile0{
+	width:50%;
+	height:50%;
+	border-bottom: 4px solid #fff;
+	border-right: 4px solid #fff;
+}
+.main-banner-wrapper.banner5 .tile1{
+	width:50%;
+	border-bottom: 4px solid #fff;
+	border-left: 4px solid #fff;
+}
+.main-banner-wrapper.banner5 .tile2{
+	width:33.33333333%;
+	height:50%;
+
+	border-top: 4px solid #fff;
+	border-right: 4px solid #fff;
+}
+.main-banner-wrapper.banner5 .tile3{
+	width:33.33333333%;
+	height:50%;
+
+	border-top: 4px solid #fff;
+	border-left: 4px solid #fff;
+}
+
+.main-banner-wrapper.banner5 .tile4{
+	width:33.33333333%;
+	height:50%;
+	border-top: 4px solid #fff;
+	border-left: 4px solid #fff;
+}
+
+
+
+.main-banner-wrapper.banner6 .tile{
+	width: 33.3333333333%;
+	float:left;
+	height:50%;
+	background-repeat: no-repeat;
+	background-position:center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color:#fff;	
+}
+.main-banner-wrapper.banner6 .tile .banner-content {
+	padding:10px;
+}
+.main-banner-wrapper.banner6 .tile .banner-title {
+	font-size:16px;
+}
+
+.main-banner-wrapper.banner6 .tile .banner-description {
+	font-size:14px;
+}
+.main-banner-wrapper.banner6 .tile a.read-more {
+	font-size:12px;
+}
+
+.main-banner-wrapper.banner6 .tile0{ 
+	border-bottom: 4px solid #fff;
+	border-right: 4px solid #fff;
+}
+
+.main-banner-wrapper.banner6 .tile1{ 
+	border-bottom: 4px solid #fff;
+	border-left: 4px solid #fff;
+	border-right: 4px solid #fff;
+}
+
+.main-banner-wrapper.banner6 .tile2{ 
+	border-bottom: 4px solid #fff;
+	border-left: 4px solid #fff;
+}
+
+.main-banner-wrapper.banner6 .tile3{ 
+	border-top: 4px solid #fff;
+	border-right: 4px solid #fff;
+}
+
+.main-banner-wrapper.banner6 .tile4{ 
+	border-top: 4px solid #fff;
+	border-left: 4px solid #fff;
+	border-right: 4px solid #fff;
+}
+
+.main-banner-wrapper.banner6 .tile5{ 
+	border-top: 4px solid #fff;
+	border-left: 4px solid #fff;
+}
+
+
+
+.main-banner-wrapper .clearfix{
+	clear:both;
+}
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+.autocompleter{
+	position:absolute;
+	border: solid 1px #666;
+	top:48px;
+	width:450px;
+	z-index: 1000;
+}
+
+.autocompleter .banneroption{
+	cursor:pointer;
+	background-color:#fff;
+	padding:5px;
+}
+
+.autocompleter .banneroption:hover{
+	background-color:#FFEBC5;
+}
+
+.banner-alert-notice{
+	color:#fff;
+	background-color:#900;
+	font-weight:bold;
+	padding:10px;
+	text-align:center;
+	top:0;
+}
+.banner-selector-wrapper{
+	position: relative;
+}
+.banner-selector {
+	position:absolute;
+	right:0;
+	margin-right:0px;
+	top:-40px;
+}
+.banner-selector ul {
+	margin:0;
+	padding:0;
+}
+.banner-selector li {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;
+}
+.banner-selector li .action{
+	background-color:#ccc;
+	color:#333;
+	margin-right:5px;
+	padding:5px 15px;
+	cursor: pointer;
+}
+.banner-selector li .action.save{
+	background-color:#090;
+	color:#fff;
+}
+.banner-selector li .action.save:hover{
+	background-color:#900;
+}
+
+.field-name-field-banner-tile{
+	display:none;
+}#_Åru      Y˙,Y˙,>^ÂZè,   R    :http://computing.njit.edu/sites/all/modules/njit_settings/bannerstyles.css?oyn3ul necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Wed, 01 Nov 2017 19:02:04 GMT
+Server: Apache
+Last-Modified: Fri, 15 Jul 2016 14:31:59 GMT
+Etag: "1f4069-24ba-537ad7b2d75c0"
+Accept-Ranges: bytes
+Content-Length: 9402
+Cache-Control: max-age=1209600
+Expires: Wed, 15 Nov 2017 19:02:04 GMT
+Content-Type: text/css
+ original-response-headers Date: Wed, 01 Nov 2017 19:02:04 GMT
+Server: Apache
+Last-Modified: Fri, 15 Jul 2016 14:31:59 GMT
+Etag: "1f4069-24ba-537ad7b2d75c0"
+Accept-Ranges: bytes
+Content-Length: 9402
+Cache-Control: max-age=1209600
+Expires: Wed, 15 Nov 2017 19:02:04 GMT
+Keep-Alive: timeout=3, max=100
+Connection: Keep-Alive
+Content-Type: text/css
+ uncompressed-len 0   $∫
