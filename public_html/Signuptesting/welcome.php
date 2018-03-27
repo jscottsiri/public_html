@@ -89,7 +89,7 @@ try {
     echo $lname."<br></font></div>";
 }
     else{
-        echo "<div id='badlog'><font size='7'>Bad Login, Provide Correct Login Details<br></font></div>";
+        echo "<div id='badlog'><font size='7'><a href='https://web.njit.edu/~jss82/Signuptesting/bootstrapsignup.php'>Bad Login, Provide Correct Login Details Here</a><br></font></div>";
     }
     #Where I am at: I just figured out how to get the things from each column into variables. We literally just need to format this nicely, then optimize.
     
